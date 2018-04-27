@@ -1,7 +1,7 @@
-<!-- TITLE: The Makerspace @ Scholars' Lab Wiki -->
+1<!-- TITLE: The Makerspace @ Scholars' Lab Wiki -->
 <!-- SUBTITLE: A repository of guides, tutorials, FAQs and knowledge for the Makerspace -->
 
-![Kraken](kraken.svg)
+![Kraken](https://raw.githubusercontent.com/scholarslab/makerwiki/master/kraken.svg)
 
 # Contributing
 - [WikiJS Documentation](https://docs.requarks.io/wiki/user-guide/markdown-syntax)
