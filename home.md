@@ -1,4 +1,4 @@
-1<!-- TITLE: The Makerspace @ Scholars' Lab Wiki -->
+<!-- TITLE: The Makerspace @ Scholars' Lab Wiki -->
 <!-- SUBTITLE: A repository of guides, tutorials, FAQs and knowledge for the Makerspace -->
 
 ![Kraken](https://raw.githubusercontent.com/scholarslab/makerwiki/master/kraken.png)
