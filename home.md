@@ -1,7 +1,17 @@
-<!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- TITLE: The Makerspace @ Scholars' Lab Wiki -->
+<!-- SUBTITLE: A repository of guides, tutorials, FAQs and knowledge for the Makerspace -->
 
-# The Makerspace @ Scholars' Lab
-- how to edit pages with Markdown ([Documentation](https://docs.requarks.io/wiki/user-guide/markdown-syntax))
-- example of a link to a page: [Link](new-page)
-- [Scholars' lab makerspace](http://scholarslab.org/makerspace)
+![Kraken](kraken.svg)
+
+# Contributing
+- [WikiJS Documentation](https://docs.requarks.io/wiki/user-guide/markdown-syntax)
+- Login to website with account or commit to the [GitHub repo](https://github.com/scholarslab/makerwiki)
+
+
+# Helpful Pages
+- [FAQs](faqs)
+- [Tutorials](tutorials)
+
+
+
+[Scholars' lab makerspace](http://scholarslab.org/makerspace)
