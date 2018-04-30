@@ -20,7 +20,7 @@ This project was brought to me by Dan Foulds, a good friend (and DM!) of mine. H
 # First steps!
 The first challenge was finding a model of the sun. We wanted it to have the correct "look". As in, it had to be kinda bumpy and have the correct topography to emulate the Sun properly. We ended up going with a [Moon model from Thingiverse](https://www.thingiverse.com/thing:2344879). (I'll use we in this guide, but really I mean Dan would tell me what he wanted and I would do the work.)
 
-Once we settled on the moon model, I cut it up in Meshmixer, hollowing it out so that we could put lights on the inside and cutting a lid onto it so that we could insert the lights and then glue it shut. (put our models on Thingiverse and link them here)
+Once we settled on the moon model, I cut it up in Meshmixer, hollowing it out so that we could put lights on the inside and cutting a lid onto it so that we could insert the lights and then glue it shut. 
 
 We 3D printed it on the Form2 in Clear (V2) resin and cleaned it up. You can find the Model and images on my [Thingiverse Listing for the model](https://www.thingiverse.com/thing:2886096)
 
@@ -44,7 +44,10 @@ Dan had the following in mind for the LEDs
 * Soft glow (so some kind of light diffusion would be necessary)
 * Pulsing colors, to emulate the natural ebb and flow of the Sun's surface colors
 
+
 [video](/uploads/arduino-sun-project/video-1517678096.mp4){.video}
+
+## Step 2: Make the light good
 
 
 # TO DO
