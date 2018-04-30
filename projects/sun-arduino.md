@@ -159,10 +159,11 @@ This is what the LED strip looks like with this code. It is much more "twinkly" 
 * Do the calculation of states **once** and then iterate through all the lights, updating them accoording to their group.
 
 # The Final Product
-Now I know I give Dan a hard time throughout this process for making me do all the work, but I will say, the final product would not have been very special at all without his work. He did an amazing job 3D printing all the dungeon tiles and assembling the whole thing on the board. Its a little hard to see the exact colors of the orb in the low light, but this is a great view of the epic battle our characters faced. 
+Now I know I give Dan a hard time throughout this process for making me do all the work, but I will say, the final product would not have been very special at all without his work. He did an amazing job 3D printing/painting all the dungeon tiles and assembling the whole thing on the board with dry-ice fog. Its a little hard to see the exact colors of the orb in the low light, but this is a great view of the epic battle our characters faced. 
 
 ![29829868 871030426401857 1564642725 O](/uploads/arduino-sun-project/29829868-871030426401857-1564642725-o.jpg "29829868 871030426401857 1564642725 O")
 
+[video](/uploads/arduino-sun-project/video-1522463659-at-dnd.mp4){.video}
 
 
 # Thoughts 
