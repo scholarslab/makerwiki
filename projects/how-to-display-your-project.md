@@ -1,5 +1,5 @@
 <!-- TITLE: How To Display Your Project -->
-<!-- SUBTITLE: A quick summary of How To Display Your Project -->
+<!-- SUBTITLE: A quick how-to guide on writing about your project -->
 
 # How to display your project
 ## A Quick Note
