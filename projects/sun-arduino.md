@@ -65,7 +65,7 @@ Now that sounds like an easy step, but this step (combined with the next) took u
 
 Over time, I developed various methods of making the lights go up and down. 
 
-The first method I used had some pseudocode like this
+The first method I used had some pseudocode like this. Because Yellow, Orange, and Red are all "Red" colors, I am able to take advantage of using the brightness of other colors as a fraction of the brightness of Red.
 
 ```c_cpp
 for(int brightness = 0; brightness < 255; brightness = brightness + 1){
@@ -80,7 +80,7 @@ for(int brightness = 255; brightness > 0; brightness = brightness - 1)[
 }
 ```
 
-Essentially, the brightness variable is a reference point for calculating the brightness for each set of LEDs. For each loop, the brightness value is incremented by 1, then the brightnesses of each LED are appropriately recalculated. `setOrangeLEDs(255 - brightness)` means that the orange LEDs are the opposite brightness as the red LEDs. When `brightness` is 1, red LEDs will have brightness 1, and orange LEDs will have brightness 254. In addition, I had the LEDs spaced in increments of 3. So LED 1 is red, LED 2 is yellow, LED 3 is orange, LED 4 is red, etc. This is what that looked like inside the 3D printed sun
+Essentially, the brightness variable is a reference point for calculating the brightness for each set of LEDs. For each loop, the brightness value is incremented by 1, then the brightnesses of each LED are appropriately recalculated. `setOrangeLEDs(255 - brightness)` means that the orange LEDs are the opposite brightness as the red LEDs. When `brightness` is 1, red LEDs will have brightness 1, and orange LEDs will have brightness 254. In addition, I had the LEDs spaced in increments of 3. So LED 1 is red, LED 2 is yellow, LED 3 is orange, LED 4 is red, etc. This is what that looked like inside the 3D printed sun.
 
 [video](/uploads/arduino-sun-project/video-1517977588-all-lights-working-basic-pattern.mp4){.video}
 
@@ -122,7 +122,15 @@ loop(){
 }
 ```
 
-This basic control structure is what I used throughout the project. It works pretty well, as when the system enters the method of each behavior, it does not read in anymore input until the behavior method finishes executing. In addition, the line `int switchPressed = -1;`  means that the system defaults the normal RYO behavior. 
+This basic control structure is what I used throughout the project. It works pretty well, as when the system enters the method of each behavior, it does not read in anymore input until the behavior method finishes executing. In addition, the line `int switchPressed = -1;`  means that the system defaults the normal Red/Yellow/Orange behavior. 
+
+This is what those behaviors look like. 
+
+[video](/uploads/arduino-sun-project/video-1518282892-lights-in-ball-with-buttons.mp4){.video}
+
+
+## Step 4: Making it random.
+So despite my ultimate ability to make things look amazing, Dan was just not satisfied. 
 
 # TO DO
 Upload models on Thingiverse, post many pictures, post code, etc.
