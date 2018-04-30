@@ -50,6 +50,14 @@ This is an early version of the lights when I was playing around with RGB values
 
 [video](/uploads/arduino-sun-project/video-1517678096.mp4){.video}
 
+Once I was able to power the whole strip, I got some basic color changing working.
+
+[video](/uploads/arduino-sun-project/video-1517883823.mp4){.video}
+
+
+As you can see, half the lights are Yellow(ish) and half are Red. This was adjusted later of course.
+
+
 
 ## Step 2: Make the light good
 Now that sounds like an easy step, but this step (combined with the next) took up most of the duration of the project. Now that I had two LED's working, I needed to get the whole strip lit up. For that, I ordered the 4-battery holder that is listed above. 4 AA batteries (4 x 1.5V = 6V, but realistically 5V after a small amount of use) power the LED strip, and the Arduino is powered separately by a cable to a computer. It is possible to power the entire system indepently, but the LED strip eats up the current from the batteries, leaving no extra power for the Nano controller. To power the Arduino, I would probably need to have 5 batteries, or just have two different power supplies. 
