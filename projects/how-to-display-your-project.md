@@ -13,6 +13,7 @@ This is a brief guide on how you might display your project here on the Makerspa
 * The Goal! (A finished product? A basic protoype?)
 * What technologies you used to accomplish your project (3D Printing, Arduino, etc.)
 * Are you seeking help on the project if it is ongoing? 
+* Project Cost (How much would it cost to replicate this project?)
 
 ### Fill in the details!
 Tell a story with your project. What was your inspiration? Did it turn out the way you expected? What mistakes did you learn along the way?
