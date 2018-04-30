@@ -5,6 +5,7 @@
 Name: Nicolas Dalton
 Contact Info: nsd4fr@virginia.edu. I am happy to talk to you about this project!
 Level of Completion: Complete, but not polished
+Duration: 3 Months
 The Goal: A working protoype
 Project Cost: Around $20
 Technologies used in this project: 3D Printing, Arduino Electronics, Programming
@@ -82,6 +83,14 @@ for(int brightness = 255; brightness > 0; brightness = brightness - 1)[
 Essentially, the brightness variable is a reference point for calculating the brightness for each set of LEDs. For each loop, the brightness value is incremented by 1, then the brightnesses of each LED are appropriately recalculated. `setOrangeLEDs(255 - brightness)` means that the orange LEDs are the opposite brightness as the red LEDs. When `brightness` is 1, red LEDs will have brightness 1, and orange LEDs will have brightness 254. In addition, I had the LEDs spaced in increments of 3. So LED 1 is red, LED 2 is yellow, LED 3 is orange, LED 4 is red, etc. This is what that looked like inside the 3D printed sun
 
 [video](/uploads/arduino-sun-project/video-1517977588-all-lights-working-basic-pattern.mp4){.video}
+
+## Step 3: Controlling and Cool Patterns
+
+Since the project had been pretty painless up to this point, I asked Dan if there was anything special that he wanted. Maybe there were special circumstances in the Boss Fight that might require some cool colors/patterns. He gave me three different conditions (in addition to the normal Orange/Yellow/Red pulsing).
+
+1. A bright blue/white flash, starting from completely off and ramping up to max brightness
+2. The normal pulsing increases in speed for about 5 seconds, then the full sphere goes bright red
+3. Purple swirling that goes around the sphere
 
 # TO DO
 Upload models on Thingiverse, post many pictures, post code, etc.
