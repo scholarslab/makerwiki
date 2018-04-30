@@ -1,8 +1,19 @@
-<!-- TITLE: Arduino-Controlled Sun Model-->
+<!-- TITLE: (WiP) Arduino-Controlled Sun Model-->
 <!-- SUBTITLE: An Arduino-Controlled model of the Sun as a prop for a tabletop RPG -->
 
 # Details
 Name: Nicolas Dalton
 Contact Info: nsd4fr@virginia.edu. I am happy to talk to you about this project!
+Level of Completion: Complete, but not polished
+The Goal: A working protoype
+Technologies used in this project: 3D Printing, Arduino Electronics, Programming
+Tools used in this project:
+* Form2
+* Arduino IDE
+* Soldering Iron
+* Meshmixer
 
 # Inspirations!
+This project was brought to me by Dan Foulds, a good friend (and DM!) of mine. He wanted to create a small model of the Sun that could be used in for Dungeons and Dragons for our game. But, he also wanted it to have several cool light patterns that would correlate to different situations in the game. Essentially, he had this idea and wanted me to help him make it real.
+# First Steps!
+The first challenge was finding a model of the sun. We wanted it to have the correct "look". As in, it had to be kinda bumpy and have the correct topography to emulate the Sun properly. We ended up going with a (insert link later) Moon model from Thingiverse
