@@ -158,6 +158,14 @@ This is what the LED strip looks like with this code. It is much more "twinkly" 
 * Using layers of helper methods. This is not (necessarily) an optimization of speed, but rather of readibility and compiling. By using helper methods for certain operations such as `void changeState(int group)`, it makes the code easier to read. Someone with less experience doesn't need to understand how that deep code inside of the method works, but having names like `changeState` makes it very clear what is happening and let's them copy it. It also means the assembly file is smaller, so it decreases storage size.
 * Do the calculation of states **once** and then iterate through all the lights, updating them accoording to their group.
 
+# The Final Product
+Now I know I give Dan a hard time throughout this process for making me do all the work, but I will say, the final product would not have been very special at all without his work. He did an amazing job 3D printing all the dungeon tiles and assembling the whole thing on the board. Its a little hard to see the exact colors of the orb in the low light, but this is a great view of the epic battle our characters faced. 
+
+![29829868 871030426401857 1564642725 O](/uploads/arduino-sun-project/29829868-871030426401857-1564642725-o.jpg "29829868 871030426401857 1564642725 O")
+
+
+
+# Thoughts 
 # TO DO
 Upload models on Thingiverse, post many pictures, post code, etc.
 
