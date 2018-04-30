@@ -172,7 +172,7 @@ Now I know I give Dan a hard time throughout this process for making me do all t
 
 [video](/uploads/arduino-sun-project/video-1522463659-at-dnd.mp4){.video}
 
-(I'll hopefully have a quick demo vid soon to show off what it looks like on the board with all the lights)
+(I'll hopefully have a quick demo vid soon to show off what it looks like on the board with all the light patterns and stuff)
 
 
 # Thoughts 
