@@ -1,4 +1,4 @@
 <!-- TITLE: Projects -->
-<!-- SUBTITLE: A quick summary of Projects -->
+<!-- SUBTITLE: A place to document and write about projects worked on in the Makerspace! -->
 
-# Header
+# How to Document Your Project
