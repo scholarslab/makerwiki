@@ -40,7 +40,12 @@ I was interesting in doing several things with Arduino microcontrollers at this 
 I used a Nano board for this project. At the start, I did not know whether the Arduino itself would be inside the Sun model or not, so I wanted to have something that was small enough to fit inside the sun if necessary, but still robust enough that I could use the extras I had with other projects. I ended up not putting the Nano inside the sun, so you can really use any Arduino controller (Uno, Nano, etc.) with the design I provide.  Also, I bought the Elegoo kit for the same reason. I knew I was interested in getting more involved with Arduino and wanted a good range of supplies. I think that the only thing from the Elegoo kit that I actually used is some resistors later in the project. 
 
 ## Step 1: Let there be light
-The first step of this part of the project is just MAKING IT LIGHT UP. Because microcontrollers cannot handle a large electrical load (each pin can only give about 30 mA of current), I started very small, with only 2 LEDs at the front of the strip. 
+The first step of this part of the project is just MAKING IT LIGHT UP. Because microcontrollers cannot handle a large electrical load (each pin can only give about 30 mA of current), I started very small, with only 2 LEDs at the front of the strip. Each **individual** LED when it is at **full brightness** (full RGB, producing white light at max intensity) draws about 30mA of current, so I knew that only lighting up 2 LEDs in only one color at a low intensity would not surpass this metric.
+
+Dan had the following in mind for the LEDs
+* A mix of Yellow, Orange, and Red 
+* Soft glow (so some kind of light diffusion would be necessary)
+* Pulsing colors, to emulate the natural ebb and flow of the Sun's surface colors
 
 [video](/uploads/arduino-sun-project/video-1517678096.mp4){.video}
 
