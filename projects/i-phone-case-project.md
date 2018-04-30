@@ -1,4 +1,4 @@
-<!-- TITLE: iPhone Case Project -->
+<!-- TITLE: (WiP) iPhone Case Project -->
 <!-- SUBTITLE: A quick summary of iPhone Case Project -->
 
 # Work in Progress
