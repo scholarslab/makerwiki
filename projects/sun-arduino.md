@@ -122,11 +122,14 @@ loop(){
 }
 ```
 
-This basic control structure is what I used throughout the project. It works pretty well, as when the system enters the method of each behavior, it does not read in anymore input until the behavior method finishes executing. In addition, the line `int switchPressed = -1;`  means that the system defaults the normal Red/Yellow/Orange behavior. 
+This basic control structure is what I used throughout the project. It works pretty well, as when the system enters the method of each behavior, it does not read in anymore input until the behavior method finishes executing. In addition, the line `int switchPressed = -1;`  means that the system defaults the normal Red/Yellow/Orange behavior. One thing I changed later was that the `normalPulse()` method would only activate one "step" of changing the LEDs. Instead of going through a full up-down cycle, it would only execute one step up, or one step down, depending on the state of the system. That way you dont have to hold down the buttons and wait, but you can instantly get a response from the system. 
 
-This is what those behaviors look like. 
+This is what those behaviors look like. Pardon the audio, it was a demo video for Dan. 
 
 [video](/uploads/arduino-sun-project/video-1518282892-lights-in-ball-with-buttons.mp4){.video}
+
+
+I looked at a lot of code online for making interesting patterns and such on these kinds of light strips. I wrote my own code for the normal pulsing, the blue/white flash, and the red flash, but I used code from [tweaking4all.com's guide](https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/) for the purple swirling effect, as it involves an interesting sinusoidal function. See the "Running Lights" pattern in the website. This website also has a great tutorial for setting up the LED strip with the power source and Arduino in the circuit. I relied on this guide early on for designing the circuit. 
 
 
 ## Step 4: Making it random.
