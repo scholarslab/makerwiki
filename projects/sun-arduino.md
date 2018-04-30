@@ -16,6 +16,12 @@ Tools used in this project:
 * Meshmixer
 
 
+Too see the final product, scroll down to the very bottom of this page!
+
+
+### Versions
+Through this page, I go through the many steps it took to get to the final product. I give examples of what my pseudocode or approach looks like during given iterations of the project, but trying to post full files and blocks of working code corresponding to where I was is simply not worth the effort. At the end, I post my wiring diagram, working code, and Thingiverse links where you can find all models of the 3D printed parts of this project. Thanks for reading!
+
 # Inspirations!
 This project was brought to me by Dan Foulds, a good friend (and DM!) of mine. He wanted to create a small model of the Sun that could be used in for Dungeons and Dragons for our game. But, he also wanted it to have several cool light patterns that would correlate to different situations in the game. Essentially, he had this idea and wanted me to help him make it real. The goal: A 3D printed, LED-filled, controllable, independently powered model of the Sun.
 # First steps!
