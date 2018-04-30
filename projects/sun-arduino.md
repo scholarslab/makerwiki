@@ -16,7 +16,7 @@ Tools used in this project:
 * Meshmixer
 
 
-Too see the final product, scroll down to the very bottom of this page!
+To see the final product, scroll down to the very bottom of this page!
 
 
 ### Versions
