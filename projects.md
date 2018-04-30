@@ -15,3 +15,5 @@ This is a brief guide on how you might display your project here on the Makerspa
 * The Goal!
 * What technologies you used to accomplish your project (3D Printing, Arduino, etc.)
 * Are you seeking help on the project if it is ongoing?
+
+### Fill in the details!
