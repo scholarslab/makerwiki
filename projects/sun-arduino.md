@@ -92,6 +92,38 @@ Since the project had been pretty painless up to this point, I asked Dan if ther
 2. The normal pulsing increases in speed for about 5 seconds, then the full sphere goes bright red
 3. Purple swirling that goes around the sphere
 
+So now I had to consider how to code and implement control structures into the system. I decided to give each condition a button, each connecting to its own pin on the Nano. This follows the basic [button Arduino tutorial.](https://www.arduino.cc/en/Tutorial/Button) But I still had to control the arduino somehow. The code I settled on looked something like this. 
+
+Quick Note about Arduino Code: The loop() method is essentially the main() method of the system. The chunk of code in the loop() method will continue to iterate as long as the arduino is powered. 
+
+
+```c_cpp
+loop(){
+  int pressedSwitch = -1;
+  if(blueAndWhiteButton.isPressed() == true){
+    pressedSwitch = 1;
+  }
+  if(redFlashButton.isPressed() == true){
+    pressedSwitch = 2;
+  }
+  if(purpleSwirlsButton.isPressed() == true){
+    pressedSwitch = 3;
+  }
+  
+  switch(pressedSwitch)
+    case: -1
+    do normalPulse();
+    case: 1
+    do blueAndWhite();
+    case: 2
+    do redFlash();
+    case: 3
+    do purpleSwirls();
+}
+```
+
+This basic control structure is what I used throughout the project. It works pretty well, as when the system enters the method of each behavior, it does not read in anymore input until the behavior method finishes executing. In addition, the line `int switchPressed = -1;`  means that the system defaults the normal RYO behavior. 
+
 # TO DO
 Upload models on Thingiverse, post many pictures, post code, etc.
 
