@@ -141,10 +141,12 @@ The first attempt involved keeping track of both the up/down state (increasing b
 
 The second iteration was barely better, and it was not until the third iteration that I found a working solution. I put all the LEDs into 6 groups, each group of 10 LEDs would have its own state values. I also made big improvements to the control structure that determined what the next value of an LED should be. This decreased the number of array accesses and vastly increased the speed of the system. Instead of checking the color state, then the increasing/decreasing state, I had it check the increasing/decreasing state first, then the color state. In terms of combinatorics, this sounds identical. But the Arduino switch() conditional is fairly computationally expensive, and having if-then statements inside of a switch() is much worse practically than a switch() inside of if-then. 
 
+The choice of 6 groups was arbitrary, but it having 6 groups of 10 lights each seemed like reasonable values.
+
 ### Minor Optimizations
 * Using arrays of bytes instead of arrays of ints. Ints use up more memory than bytes, so using bytes instead of ints (especially as a global variable) for small numbers is a nice little optimization that while not neccessary in this project, might be a necessary change in a more sophisticated project.
 * Using layers of helper methods. This is not (necessarily) an optimization of speed, but rather of readibility and compiling. By using helper methods for certain operations such as `void changeState(int group)`, it makes the code easier to read. Someone with less experience doesn't need to understand how that deep code inside of the method works, but having names like `changeState` makes it very clear what is happening and let's them copy it. It also means the assembly file is smaller, so it decreases storage size.
-* 
+* Do the calculation of states **once** and then iterate through all the lights, updating them accoording to their group.
 
 # TO DO
 Upload models on Thingiverse, post many pictures, post code, etc.
