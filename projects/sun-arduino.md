@@ -22,10 +22,7 @@ The first challenge was finding a model of the sun. We wanted it to have the cor
 
 Once we settled on the moon model, I cut it up in Meshmixer, hollowing it out so that we could put lights on the inside and cutting a lid onto it so that we could insert the lights and then glue it shut. (put our models on Thingiverse and link them here)
 
-We 3D printed it on the Form2 in Clear (V2) resin and cleaned it up. 
-![27787314 824832431021657 1420165269 O](/uploads/arduino-sun-project/27787314-824832431021657-1420165269-o.jpg "27787314 824832431021657 1420165269 O")
-![27787300 825448830960017 1064218292 O](/uploads/arduino-sun-project/27787300-825448830960017-1064218292-o.jpg "27787300 825448830960017 1064218292 O")
-![27846345 825448797626687 1615136642 O](/uploads/arduino-sun-project/27846345-825448797626687-1615136642-o.jpg "27846345 825448797626687 1615136642 O")
+We 3D printed it on the Form2 in Clear (V2) resin and cleaned it up. You can find the Model and images on my [Thingiverse Listing for the model](https://www.thingiverse.com/thing:2886096)
 
 # Now the hard part...
 The next step of the project was to get the LEDs working. I bought a [1meter length of LED addressable lights](https://www.amazon.com/gp/product/B01D1DRJ0G/ref=oh_aui_detailpage_o02_s01?ie=UTF8&psc=1) off of Amazon and got to work. 
@@ -48,6 +45,7 @@ Dan had the following in mind for the LEDs
 * Pulsing colors, to emulate the natural ebb and flow of the Sun's surface colors
 
 [video](/uploads/arduino-sun-project/video-1517678096.mp4){.video}
+
 
 # TO DO
 Upload models on Thingiverse, post many pictures, post code, etc.
