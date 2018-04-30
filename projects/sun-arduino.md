@@ -24,14 +24,13 @@ Through this page, I go through the many steps it took to get to the final produ
 
 # Inspirations!
 This project was brought to me by Dan Foulds, a good friend (and DM!) of mine. He wanted to create a small model of the Sun that could be used in for Dungeons and Dragons for our game. But, he also wanted it to have several cool light patterns that would correlate to different situations in the game. Essentially, he had this idea and wanted me to help him make it real. The goal: A 3D printed, LED-filled, controllable, independently powered model of the Sun.
-# First steps and the Physical Model
+# First steps
 The first challenge was finding a model of the sun. We wanted it to have the correct "look". As in, it had to be kinda bumpy and have the correct topography to emulate the Sun properly. We ended up going with a [Moon model from Thingiverse](https://www.thingiverse.com/thing:2344879). (I'll use we in this guide, but really I mean Dan would tell me what he wanted and I would do the work.)
 
 Once we settled on the moon model, I cut it up in Meshmixer, hollowing it out so that we could put lights on the inside and cutting a lid onto it so that we could insert the lights and then glue it shut. 
 
 We 3D printed it on the Form2 in Clear (V2) resin and cleaned it up. You can find the Model and images on my [Thingiverse Listing for the model](https://www.thingiverse.com/thing:2886096)
 
-In the end, we decided to pad the inside of the sphere with tissues to help in diffusing the light. We considered cotton balls, toilet paper, and normal paper towels. 
 
 # Now the hard part...
 The next step of the project was to get the LEDs working. I bought a [1meter length of LED addressable lights](https://www.amazon.com/gp/product/B01D1DRJ0G/ref=oh_aui_detailpage_o02_s01?ie=UTF8&psc=1) off of Amazon and got to work. 
@@ -159,6 +158,12 @@ This is what the LED strip looks like with this code. It is much more "twinkly" 
 * Using arrays of bytes instead of arrays of ints. Ints use up more memory than bytes, so using bytes instead of ints (especially as a global variable) for small numbers is a nice little optimization that while not neccessary in this project, might be a necessary change in a more sophisticated project.
 * Using layers of helper methods. This is not (necessarily) an optimization of speed, but rather of readibility and compiling. By using helper methods for certain operations such as `void changeState(int group)`, it makes the code easier to read. Someone with less experience doesn't need to understand how that deep code inside of the method works, but having names like `changeState` makes it very clear what is happening and let's them copy it. It also means the assembly file is smaller, so it decreases storage size.
 * Do the calculation of states **once** and then iterate through all the lights, updating them accoording to their group.
+# Finishing Touches
+In the end, we decided to pad the inside of the sphere with tissues to help in diffusing the light. We considered cotton balls, toilet paper, and normal paper towels. 
+
+I designed a really simple control box using Inventor. It is literally a box with 3 holes in it that sits on top of the arduino/battery pack. This made the design a _little_ more clean, but not that much.
+
+I soldered long wires to the end of the LED strip to have running between the orb and the breadboard.
 
 # The Final Product
 Now I know I give Dan a hard time throughout this process for making me do all the work, but I will say, the final product would not have been very special at all without his work. He did an amazing job 3D printing/painting all the dungeon tiles and assembling the whole thing on the board with dry-ice fog. Its a little hard to see the exact colors of the orb in the low light, but this is a great view of the epic battle our characters faced. [That's me in the background of the video :) ]
@@ -167,12 +172,19 @@ Now I know I give Dan a hard time throughout this process for making me do all t
 
 [video](/uploads/arduino-sun-project/video-1522463659-at-dnd.mp4){.video}
 
+(I'll hopefully have a quick demo vid soon to show off what it looks like on the board with all the lights)
+
 
 # Thoughts 
 * Make sure you have fresh batteries before presenting the final product (or at least bring some spares). I had done so much testing on a single set of AAs that they died about halfway through the encounter. A shame, but it was awesome nonetheless.
-* Do not concern yourself with inexperience. Jump right in! Before this project, I had very little experience with the Arduino environment. However, I have taken several programming classes that make learnign the Arduino "language" pretty trivial. My experience with circuits was much poorer. I had never made my own circuit, and I would even argue that I still did not in this project, as all I did was assemble smaller circuits that I took from other sources. There is tons of documentation for Arduino projects, and its **super easy** to find someone who has done something "close enough" to yours for you to modify and improve!
-* If you want someone else to work on your project idea/are working on a project based on someone else's idea, make your goals/specification for the project very clear and explicit. This is kind of a note directed at Dan. He's a great guy sometimes, but his lack of programming / electronics knowledge did make it a little challenging to communicate some of the limitations I was working with. Sometimes it felt like he would tell me what I was showing him was "almost perfect" then want to make a change that required me to revisit my basic assumptions/designs, as happened with the randomness thing. In the end, I learned that it's also important to ask the person you're working with more questions about what they **actually** want rather than trying to work with semi-clear ideas and ending up costing yourself a lot of time. 
-* 
-# TO DO
-Upload models on Thingiverse, post many pictures, post code, etc.
+* Do not concern yourself with inexperience. Jump right in! Before this project, I had very little experience with the Arduino environment. However, I have taken several programming classes that make learnign the Arduino "language" pretty trivial. My experience with circuits was much poorer. I had never made my own circuit, and I would even argue that I still did not in this project, as all I did was assemble smaller circuits that I took from other sources. There is tons of documentation for Arduino projects, and it's **super easy** to find someone who has done something "close enough" to yours for you to modify and improve!
+* If you want someone else to work on your project idea/are working on a project based on someone else's idea, make your goals/specification for the project very clear and explicit. This is kind of a note directed at Dan. He's a great guy sometimes, but his lack of programming / electronics knowledge did make it a little challenging to communicate some of the limitations I was working with. Sometimes it felt like he would tell me what I was showing him was "_almost_ perfect" then want to make a change that required me to revisit my basic assumptions/designs, as happened with the randomness thing. In the end, I learned that it's also important to ask the person you're working with more questions about what they **actually** want rather than trying to work with semi-clear ideas and ending up costing yourself a lot of time. 
+* Make sure you have everything properly connected to ground. Y'all electrical engineers know what I mean.
+# My Files
+The terrain/tiles that Dan used he bought from somewhere, so those are not available here for free (obvi)
+[Thingiverse Listing](https://www.thingiverse.com/thing:2886096) Includes
+* Sun (both parts)
+* Stand
+* Control box
+* My Tabaxi Mini (I know those tabaxi minis are hard to come by, this one is custom from Heroforge...)
 
