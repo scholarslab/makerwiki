@@ -43,7 +43,7 @@ I was interesting in doing several things with Arduino microcontrollers at this 
 * [4-Battery Holder](https://www.amazon.com/gp/product/B019XT18IQ/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
 I used a Nano board for this project. At the start, I did not know whether the Arduino itself would be inside the Sun model or not, so I wanted to have something that was small enough to fit inside the sun if necessary, but still robust enough that I could use the extras I had with other projects. I ended up not putting the Nano inside the sun, so you can really use any Arduino controller (Uno, Nano, etc.) with the design I provide.  Also, I bought the Elegoo kit for the same reason. I knew I was interested in getting more involved with Arduino and wanted a good range of supplies. I think that the only thing from the Elegoo kit that I actually used is some resistors later in the project. 
 
-## Step 1: Let there be light
+# Step 1: Let there be light
 The first step of this part of the project is just MAKING IT LIGHT UP. Because microcontrollers cannot handle a large electrical load (each pin can only give about 30 mA of current), I started very small, with only 2 LEDs at the front of the strip. Each **individual** LED when it is at **full brightness** (full RGB, producing white light at max intensity) draws about 30mA of current, so I knew that only lighting up 2 LEDs in only one color at a low intensity would not surpass this metric.
 
 Dan had the following in mind for the LEDs
@@ -66,7 +66,7 @@ As you can see, half the lights are Yellow(ish) and half are Red. This was adjus
 
 
 
-## Step 2: Make the light good
+# Step 2: Make the light good
 Now that sounds like an easy step, but this step (combined with the next) took up most of the duration of the project. Now that I had two LED's working, I needed to get the whole strip lit up. For that, I ordered the 4-battery holder that is listed above. 4 AA batteries (4 x 1.5V = 6V, but realistically 5V after a small amount of use) power the LED strip, and the Arduino is powered separately by a cable to a computer. It is possible to power the entire system indepently, but the LED strip eats up the current from the batteries, leaving no extra power for the Nano controller. To power the Arduino, I would probably need to have 5 batteries, or just have two different power supplies. 
 
 Over time, I developed various methods of making the lights go up and down. 
@@ -90,7 +90,7 @@ Essentially, the brightness variable is a reference point for calculating the br
 
 [video](/uploads/arduino-sun-project/video-1517977588-all-lights-working-basic-pattern.mp4){.video}
 
-## Step 3: Controlling and Cool Patterns
+# Step 3: Controlling and Cool Patterns
 
 Since the project had been pretty painless up to this point, I asked Dan if there was anything special that he wanted. Maybe there were special circumstances in the Boss Fight that might require some cool colors/patterns. He gave me three different conditions (in addition to the normal Orange/Yellow/Red pulsing).
 
@@ -138,7 +138,7 @@ This is what those behaviors look like. Pardon the audio, it was a demo video fo
 I looked at a lot of code online for making interesting patterns and such on these kinds of light strips. I wrote my own code for the normal pulsing, the blue/white flash, and the red flash, but I used code from [tweaking4all.com's guide](https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/) for the purple swirling effect, as it involves an interesting sinusoidal function. See the "Running Lights" pattern in the website. This website also has a great tutorial for setting up the LED strip with the power source and Arduino in the circuit. I relied on this guide early on for designing the circuit. 
 
 
-## Step 4: Making it random.
+# Step 4: Making it random.
 So despite my ultimate ability to make things look amazing, Dan was just not satisfied. He did not just want a static pattern, but a dynamic, randomly fluctuating distribution of lights so that the orb would really look like the sun. Sometimes a spot would be red, sometimes orange. This was perhaps the most challenging aspect of the code from a design/CS standpoint.
 
 I went through 3 iterations of code for this process before getting something that satisfied the specifications from Dan.
