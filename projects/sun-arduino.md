@@ -44,10 +44,35 @@ Dan had the following in mind for the LEDs
 * Soft glow (so some kind of light diffusion would be necessary)
 * Pulsing colors, to emulate the natural ebb and flow of the Sun's surface colors
 
+In order to control the LEDs, I decided to use the [FastLED library](http://fastled.io/) which is compatible with the light strip I used (see above).
+
+This is an early version of the lights when I was playing around with RGB values to see what had the right shade of orange/yellow/red.
 
 [video](/uploads/arduino-sun-project/video-1517678096.mp4){.video}
 
+
 ## Step 2: Make the light good
+Now that sounds like an easy step, but this step (combined with the next) took up most of the duration of the project. Now that I had two LED's working, I needed to get the whole strip lit up. For that, I ordered the 4-battery holder that is listed above. 4 AA batteries (4 x 1.5V = 6V, but realistically 5V after a small amount of use) power the LED strip, and the Arduino is powered separately by a cable to a computer. It is possible to power the entire system indepently, but the LED strip eats up the current from the batteries, leaving no extra power for the Nano controller. To power the Arduino, I would probably need to have 5 batteries, or just have two different power supplies. 
+
+Over time, I developed various methods of making the lights go up and down. 
+
+The first method I used had some pseudocode like this
+
+```c_cpp
+for(int brightness = 0; brightness < 255; brightness = brightness + 1){
+  setRedLEDs(brightness);
+  setYellowLEDs(brightness/2);
+  setOrangeLEDs(255 - brightness);
+}
+for(int brightness = 255; brightness > 0; brightness = brightness - 1)[
+  setRedLEDs(brightness);
+  setYellowLEDs(brightness/2);
+  setOrangeLEDs(255 - brightness);
+}
+```
+
+Essentially, the brightness variable is a reference point for calculating the brightness for each set of LEDs. For each loop, the brightness value is incremented by 1, then the brightnesses of each LED are appropriately recalculated. `setOrangeLEDs(255 - brightness)` means that the orange LEDs are the opposite brightness as the red LEDs. When `brightness` is 1, red LEDs will have brightness 1, and orange LEDs will have brightness 254. In addition, I had the LEDs spaced in increments of 3. So LED 1 is red, LED 2 is yellow, LED 3 is orange, LED 4 is red, etc. This is what that looked like. 
+
 
 
 # TO DO
