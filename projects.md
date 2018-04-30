@@ -18,3 +18,5 @@ This is a brief guide on how you might display your project here on the Makerspa
 
 ### Fill in the details!
 Tell a story with your project. What was your inspiration? Did it turn out the way you expected? What mistakes did you learn along the way?
+### Seriously, lots of detail!
+Give as much info as you can (and are willing) to give on the project. A truly interesting project will allow the reader to understand your sense of accomplishment. Put in progress pictures, show the code you wrote, show all the failed versions. This kind of experimentation and documentation is amazingly helpful to others who might have a similar idea to yours.
