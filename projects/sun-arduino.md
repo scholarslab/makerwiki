@@ -42,7 +42,7 @@ I used a Nano board for this project. At the start, I did not know whether the A
 ## Step 1: Let there be light
 The first step of this part of the project is just MAKING IT LIGHT UP. Because microcontrollers cannot handle a large electrical load (each pin can only give about 30 mA of current), I started very small, with only 2 LEDs at the front of the strip. 
 
+[video](/uploads/arduino-sun-project/video-1517678096.mp4){.video}
 
-[Video 1517678096](/uploads/arduino-sun-project/video-1517678096.mp4 "Video 1517678096")
 # TO DO
 Upload models on Thingiverse, post many pictures, post code, etc.
