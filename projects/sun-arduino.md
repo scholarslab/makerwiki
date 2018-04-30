@@ -135,13 +135,17 @@ I looked at a lot of code online for making interesting patterns and such on the
 ## Step 4: Making it random.
 So despite my ultimate ability to make things look amazing, Dan was just not satisfied. He did not just want a static pattern, but a dynamic, randomly fluctuating distribution of lights so that the orb would really look like the sun. Sometimes a spot would be red, sometimes orange. This was perhaps the most challenging aspect of the code from a design/CS standpoint.
 
-I went through 3 iterations of code for this process before getting something that satisfied the specification.
+I went through 3 iterations of code for this process before getting something that satisfied the specifications from Dan.
 
 The first attempt involved keeping track of both the up/down state (increasing brightness or decreasing brightness) and the color state (red, yellow, orange). The code then looped through the arrays and assigned the next value of the LED according to its corresponding entries in the array. However, this code was far too inefficient. This required multiple array accesses for each LED (of which there were 60), and then multiple if-conditional statements about the current state of that LED to determine what its next value should be. Maybe on a faster processor, this amount of control would not be excessive, but on the tiny little nano, the light color changing became sluggish. 
 
 The second iteration was barely better, and it was not until the third iteration that I found a working solution. I put all the LEDs into 6 groups, each group of 10 LEDs would have its own state values. I also made big improvements to the control structure that determined what the next value of an LED should be. This decreased the number of array accesses and vastly increased the speed of the system. Instead of checking the color state, then the increasing/decreasing state, I had it check the increasing/decreasing state first, then the color state. In terms of combinatorics, this sounds identical. But the Arduino switch() conditional is fairly computationally expensive, and having if-then statements inside of a switch() is much worse practically than a switch() inside of if-then. 
 
 The choice of 6 groups was arbitrary, but it having 6 groups of 10 lights each seemed like reasonable values.
+
+This is what the LED strip looks like with this code. It is much more "twinkly" than previous versions. Even though at first I thought the amount of work required to randomize the lights would not be worth it, it did look great once I got it working. (Still not worth the work though.)
+
+[video](/uploads/arduino-sun-project/video-1519528979-twinkling-light-strips.mp4){.video}
 
 ### Minor Optimizations
 * Using arrays of bytes instead of arrays of ints. Ints use up more memory than bytes, so using bytes instead of ints (especially as a global variable) for small numbers is a nice little optimization that while not neccessary in this project, might be a necessary change in a more sophisticated project.
@@ -151,4 +155,3 @@ The choice of 6 groups was arbitrary, but it having 6 groups of 10 lights each s
 # TO DO
 Upload models on Thingiverse, post many pictures, post code, etc.
 
-[video](/uploads/arduino-sun-project/video-1519528979-twinkling-light-strips.mp4){.video}
