@@ -20,6 +20,14 @@ A list of tutorials for using equipment and doing things in the Makerspace. Part
 		* ABS not reccomended
 * .5 mm nozzle
 * Uses Cura Lulz or Simplify 3D
+## The Extruders
+Here at the Scholars' Lab Makerspace, we have 3 different extruders for the TAZ 5.
+* Normal (Hex 2, 0.5mm)
+* Flexystruder (0.5 mm)
+* Dual Extruder
+
+To learn about how to change the extruder on the TAZ, [click here](/3-d-printing-guide#changing-the-extruder-on-a-taz-5)
+
 # Ultimaker 2
 ## Distuingishing Features
 * Heated glass bed
