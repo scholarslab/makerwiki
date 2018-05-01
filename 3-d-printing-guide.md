@@ -9,5 +9,23 @@ Use the scrolling list on the left to skip to your topic of interest, or read th
 
 # Choosing a Printer
 # Using Slicers
+## Choosing a slicer
+Choosing a slicing software to use mostly comes down to what printer you would like to use. You can slice for any of the printers in the Makerspace using Simplify 3D on the PC. 
+
+If you are using the TAZ, you can also choose to use Cura Lulz on either desktop
+If you are using the Ultimaker, you can use Cura, Cura Lulz, or Simplify3D.
+	Note that vanilla Cura is a little clunky and can be hard to use.
+If you are using the Makerbot Replicator, you must use Simplify 3D on the PC!
+* Use the "The Doge" profile. It is customized for our printer. Also, remember not to hit save after you are finished slicing a particular object, as this overrides the default printing profiles.
+
+## Slicing Settings
+The most important settings that control the quality of your print are
+* Layer Height
+* Percent Infill
+* Number of Shells
+* Rafting
+* Brimming/Skirting
+### 
 # Determining if a Model is Suitable for Printing
 # Changing the Extruder on a TAZ 5
+
