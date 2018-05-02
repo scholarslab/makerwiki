@@ -1,4 +1,4 @@
-<!-- TITLE: 3D Printing Guide -->
+![Really Bad](/uploads/3-d-printing-guide/really-bad.png "Really Bad")<!-- TITLE: 3D Printing Guide -->
 <!-- SUBTITLE: A comprehensive tutorial on 3D printing, adapted from the "Technologist Training" document, written by Nicolas Dalton  -->
 
 # Why this is here
@@ -77,6 +77,10 @@ Example of a model with poor contact area:
 Example of a model with good contact area:
 
 ![Good Model](/uploads/3-d-printing-guide/good-model.png "Good Model")
+
+However, you can have a model that at first glance, appears to have a good contact area. However, it can be deceiving. In this model, the bottom is indeed square, but the bottom, instead of being flat and smooth, was composed of hundreds of dots. That resulted in the following. 
+
+![Really Bad](/uploads/3-d-printing-guide/really-bad.png "Really Bad")
 
 # Changing the Extruder on a TAZ 5
 
