@@ -76,7 +76,7 @@ Example of a model with poor contact area:
 
 Example of a model with good contact area:
 
-
+![Good Model](/uploads/3-d-printing-guide/good-model.png "Good Model")
 
 # Changing the Extruder on a TAZ 5
 
