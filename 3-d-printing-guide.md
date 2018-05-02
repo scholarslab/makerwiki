@@ -59,5 +59,20 @@ Skirting is a way to "prime the pump" of the extruder. It extrudes an extra few 
 
 ![Skirting](/uploads/3-d-printing-guide/skirting.png "Skirting")
 # Determining if a Model is Suitable for Printing
+## The Contact with the Print Bed
+A great first place to start when you are evaluating a model for printability is the contact area between the model and the print bed. What you are looking for is a flat surface with not too much surface area. 
+
+![First Layer](/uploads/3-d-printing-guide/first-layer.png "First Layer")
+
+What do you do if the model has poor contact with the print bed?
+* Use support material
+* Sink the model into the print bed in the slicing software
+* Don't print it
+* Explain to the patron that even with modifications, there is no guarantee that the print will come out good. 
+
+Example of a poor model:
+
+
+
 # Changing the Extruder on a TAZ 5
 
