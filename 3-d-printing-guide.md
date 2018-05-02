@@ -70,7 +70,11 @@ What do you do if the model has poor contact with the print bed?
 * Don't print it
 * Explain to the patron that even with modifications, there is no guarantee that the print will come out good. 
 
-Example of a poor model:
+Example of a model with poor contact area:
+
+![Bad Model](/uploads/3-d-printing-guide/bad-model.png "Bad Model")
+
+Example of a model with good contact area:
 
 
 
