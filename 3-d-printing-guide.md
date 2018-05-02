@@ -89,5 +89,14 @@ You can have a model that at first glance, appears to have a good contact area. 
 * Add a raft so that there is small rafting of material to give a smooth interface
 * Don't print it
 
+## Overhang
+Given the following shape, you can have 3 different scenarios
+![Overhang](/uploads/3-d-printing-guide/overhang.png "Overhang")
+### Angle is > 45 degrees
+Perfectly fine. There shouldnt be any problems
+### Angle is = 45 degrees
+Starts to get risky. Consider taking measures to prevent failure
+### Angle is < 45 degrees
+Gets more risky. A model with this bad of an overhang will almost definitely need preventative measures. Consider adding support material. Some prints _might_ not need the support. Preventative measures include support material or layer height reduction. 
 # Changing the Extruder on a TAZ 5
 
