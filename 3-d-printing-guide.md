@@ -57,7 +57,7 @@ Brimming prints extra circumferential material that is attached to the edge of t
 
 Skirting is a way to "prime the pump" of the extruder. It extrudes an extra few cm of material before the print begins. We almost always have this setting turned on, as it does not have any negative impacts and almost always is necessary. Helps to get a clean first layer.
 
-
+![Skirting](/uploads/3-d-printing-guide/skirting.png "Skirting")
 # Determining if a Model is Suitable for Printing
 # Changing the Extruder on a TAZ 5
 
