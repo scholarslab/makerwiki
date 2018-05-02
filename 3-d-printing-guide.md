@@ -70,17 +70,24 @@ What do you do if the model has poor contact with the print bed?
 * Don't print it
 * Explain to the patron that even with modifications, there is no guarantee that the print will come out good. 
 
-Example of a model with poor contact area:
+### Example of a model with poor contact area:
 
 ![Bad Model](/uploads/3-d-printing-guide/bad-model.png "Bad Model")
 
-Example of a model with good contact area:
+### Example of a model with good contact area:
 
 ![Good Model](/uploads/3-d-printing-guide/good-model.png "Good Model")
 
-However, you can have a model that at first glance, appears to have a good contact area. However, it can be deceiving. In this model, the bottom is indeed square, but the bottom, instead of being flat and smooth, was composed of hundreds of dots. That resulted in the following. 
+### However
+You can have a model that at first glance, appears to have a good contact area. However, it can be deceiving. In this model, the bottom is indeed square, but the bottom, instead of being flat and smooth, was composed of hundreds of dots. That resulted in the following. 
 
 ![Really Bad](/uploads/3-d-printing-guide/really-bad.png "Really Bad")
+
+### How to avoid this
+* Check the bottom layer in the slicer-generated preview
+* Make sure it is smooth
+* Add a raft so that there is small rafting of material to give a smooth interface
+* Don't print it
 
 # Changing the Extruder on a TAZ 5
 
