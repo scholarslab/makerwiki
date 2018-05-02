@@ -192,5 +192,7 @@ The terrain/tiles that Dan used he bought from somewhere, so those are not avail
 
 [Suncode 6: The final code I used](/uploads/arduino-sun-project/suncode-6.ino "Suncode 6")
 
-Circuit Diagram: Coming soon...
+Circuit Diagram:
+
+![Sun Project Bb](/uploads/arduino-sun-project/sun-project-bb.png "Sun Project Bb")
 
