@@ -25,7 +25,10 @@ The most important settings that control the quality of your print are
 * Number of Shells
 * Rafting
 * Brimming/Skirting
-### 
+### Layer Height
+Layer Height is the Z-axis resolution of the print, a larger value means the print will go fast, but the print might be lower quality. In the Makerspace, we have some examples of this. 
+
+![Res 1 Pt 1](/uploads/3-d-printing-guide/res-1-pt-1.png "Res 1 Pt 1")
 # Determining if a Model is Suitable for Printing
 # Changing the Extruder on a TAZ 5
 
