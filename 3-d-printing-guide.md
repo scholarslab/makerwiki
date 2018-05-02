@@ -1,4 +1,4 @@
-![Really Bad](/uploads/3-d-printing-guide/really-bad.png "Really Bad")<!-- TITLE: 3D Printing Guide -->
+<!-- TITLE: 3D Printing Guide -->
 <!-- SUBTITLE: A comprehensive tutorial on 3D printing, adapted from the "Technologist Training" document, written by Nicolas Dalton  -->
 
 # Why this is here
