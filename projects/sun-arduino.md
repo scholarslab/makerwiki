@@ -173,8 +173,6 @@ Now I know I give Dan a hard time throughout this process for making me do all t
 [video](/uploads/arduino-sun-project/video-1522463659-at-dnd.mp4){.video}
 
 (I'll hopefully have a quick demo vid soon to show off what it looks like on the board with all the light patterns and stuff)
-
-
 # Thoughts 
 * Make sure you have fresh batteries before presenting the final product (or at least bring some spares). I had done so much testing on a single set of AAs that they died about halfway through the encounter. A shame, but it was awesome nonetheless.
 * Do not concern yourself with inexperience. Jump right in! Before this project, I had very little experience with the Arduino environment. However, I have taken several programming classes that make learnign the Arduino "language" pretty trivial. My experience with circuits was much poorer. I had never made my own circuit, and I would even argue that I still did not in this project, as all I did was assemble smaller circuits that I took from other sources. There is tons of documentation for Arduino projects, and it's **super easy** to find someone who has done something "close enough" to yours for you to modify and improve!
@@ -189,6 +187,8 @@ The terrain/tiles that Dan used he bought from somewhere, so those are not avail
 * Stand
 * Control box
 * My Tabaxi Mini (I know those tabaxi minis are hard to come by, this one is custom from Heroforge...)
+
+
 
 [Suncode 6: The final code I used](/uploads/arduino-sun-project/suncode-6.ino "Suncode 6")
 
