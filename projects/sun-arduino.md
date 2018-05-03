@@ -191,7 +191,7 @@ The terrain/tiles that Dan used he bought from somewhere, so those are not avail
 **A** version of my code is here, but for the most updated version, check out my Github
 [Suncode 6: The final code I used](/uploads/arduino-sun-project/suncode-6.ino "Suncode 6")
 
-[The Gihub Listing](https://github.com/nsd4fr/Arduino-Sun)
+[The most up-to-date version is here](https://github.com/nsd4fr/Arduino-Sun)
 
 Circuit Diagram:
 
