@@ -194,5 +194,4 @@ The terrain/tiles that Dan used he bought from somewhere, so those are not avail
 
 Circuit Diagram:
 
-![Sun Project Bb](/uploads/arduino-sun-project/sun-project-bb.png "Sun Project Bb")
-
+![Wiringdiagram](/uploads/arduino-sun-project/wiringdiagram.png "Wiringdiagram")
