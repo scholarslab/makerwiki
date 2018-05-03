@@ -188,9 +188,10 @@ The terrain/tiles that Dan used he bought from somewhere, so those are not avail
 * Control box
 * My Tabaxi Mini (I know those tabaxi minis are hard to come by, this one is custom from Heroforge...)
 
-
-
+**A** version of my code is here, but for the most updated version, check out my Github
 [Suncode 6: The final code I used](/uploads/arduino-sun-project/suncode-6.ino "Suncode 6")
+
+[The Gihub Listing](https://github.com/nsd4fr/Arduino-Sun)
 
 Circuit Diagram:
 
