@@ -99,4 +99,23 @@ Starts to get risky. Consider taking measures to prevent failure
 ### Angle is < 45 degrees
 Gets more risky. A model with this bad of an overhang will almost definitely need preventative measures. Consider adding support material. Some prints _might_ not need the support. Preventative measures include support material or layer height reduction. 
 # Changing the Extruder on a TAZ 5
-
+### Cut the filament
+Use a pair of pliers to snip the filament coming from the top of the extruder. Or you can remove it.
+### Disconnect the extruder cable
+_Carefully_ remove the cable connecting the extruder to the TAZ. Be careful not to bend/break the pins on the end of the connection.
+### Remove the registration screw
+Use one of the allen wrenches in the tool box to unscrew the registration screw. This is the only thing actually holding the extruder head to the printer.
+### Lift out the old extruder
+Gently lift the old extruder out of the cradle. Be careful not to bend/break the cable connections in this step. Place the old extruder into its box.
+### Insert the new extruder
+Gently lower the new extruder into the cradle. Be careful not to bend/break the cable connections in this step.
+### Replace the registration screw
+Be careful that it properly aligns with the screw hole in the cradle.
+### Re-connect the extruder cables
+Carefully align and reconnect the electronic cables making sure that they align
+### Flash the firmware
+If it is connected to the desktop, disconnect the TAZ from the desktop computer. Once it is **disconnected**, begin the process of changing the tool head in Cura Lulz by selecting Machines->Lulzbot TAZ 5 -> Change Extruder. Follow through the steps, entering the correct parameters for our TAZ printer. At the end, select Flash the Firmware. **THEN** connect the TAZ to the desktop PC and make sure the flashing process begins and completes before removing the cable connection. 
+### Calibrate the Z-axis
+Loosen the black thumb screw located on the left side of the printer by at least one full turn. This screw determines the Z-height when the printer is "homed". If the printer is not properly homed in the Z-axis, it can drag the hot end through the bed, damaging the printer, or be too high, making the print quality low. Take out the calibration tool, or a piece of paper if you don't have one. The Makerspace calibration tool has a small piece of blue tape on the proper-thickness edge. Continue to tighten the screw and re-home the TAZ until the edge barely slides under the hot end without scraping it. Tighten the screw in increments of 1/4 - 1/2 turns.
+### You're ready to print!
+Now load the proper filament for the extruder head you are using and
