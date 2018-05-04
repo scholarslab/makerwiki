@@ -33,8 +33,21 @@ Early versions of this project are fairly crude and simple. I essentially taught
 
 ![6 Ddd 104 Bbb 2 E 8 Deafde 9 B 30 B 70380684 Preview Featured](/uploads/i-phone-case-project/6-ddd-104-bbb-2-e-8-deafde-9-b-30-b-70380684-preview-featured.jpg "6 Ddd 104 Bbb 2 E 8 Deafde 9 B 30 B 70380684 Preview Featured")
 
-This was my first functional prototype. I implemented 3 different Hex sizes, 5/16", 1/4", and 3/8". This gives me a small range of tools to work with. 
+This was my first functional prototype. I implemented 3 different Hex sizes, 5/16", 1/4", and 3/8". This gives me a small range of tools to work with. As you can see, there is a small lip running around the inside edge of the case. This is to keep the case attached to the phone, as the inner width is exactly the width of the phone. There is a divot that runs along the width of the case, this was intended to make it a little easier to place and remove the case on/from the phone. It is supposed to make it a little bendy, but not so much that it compromises the integrity of the design. At this point in the process, I intended to get this made out of metal, as I figured that plastic would simply be too soft/weak for the design to function properly (which it is). 
+# Big Changes
+After the previous iteration, I learned several facts that influenced my design moving forward. 
+1. You cannot cover a phone in metal or it will completely ruin the cell signal.
 
+This fact is something I gleaned from the schematics after having stared at them for hours on end. It seems obvious, but it did not occur to me at the time. The most vulnerable sections of the phone to this phenomenon are the top and bottom 10%. Presumably, this is where the actual communication is taking place and cannot be blocked by metal. 
 
+2. The TAZ5 in the Makerspace can print in a flexible filament
 
+This fact, combined with traditional phone case designs, inspired all of my future iterations. Traditionally, phone cases are 2-material designs. One particular trend-setter for this is Otterbox. There is the soft, rubbery casing which provides shock absorbance, and then the hard casing to hold everything together and prevent scratching. I figured, why not try it? And so I set off down this new path of design. By this point, I was getting pretty good at making iPhone cases, so making the next iteration didnt actually take that long. However, it did open my eyes to a new feature of Autodesk Inventor, Assemblies.
 
+# A Two-Part Design
+The final design is shown below.
+
+![Phone Case Full Front View](/uploads/i-phone-case-project/phone-case-full-front-view.png "Phone Case Full Front View")
+![Phone Case Full Rear View](/uploads/i-phone-case-project/phone-case-full-rear-view.png "Phone Case Full Rear View")
+
+Because the top and bottom couldn't be covered in metal, I decided to move the actual hex parts to the side portions of the back face, and have a flexible part holding the hold thing to the iPhone.  
