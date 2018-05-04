@@ -26,12 +26,15 @@ I worked in AC/refrigeration in the summer of 2016 and I noticed that there was 
 
 I worked from these iPhone 6 schematics as a reference for my phone.
 
-
+![Iphone 6 Design Dimensions Schematics](/uploads/i-phone-case-project/iphone-6-design-dimensions-schematics.jpg "Iphone 6 Design Dimensions Schematics")
 
 # Early Attempts
 Early versions of this project are fairly crude and simple. I essentially taught myself how to use Autodesk Inventor over the course of this project, as I had only ever used Autodesk AutoCAD up to this point. I learned that I could get a free educational license through my school and set myself the goal of making my own iPhone case. Over time, I continued to scrap, learn, and reiterate the design until I got something workable. Old poor versions of this project can be seen on [my Thingiverse Page](https://www.thingiverse.com/Rubiks_Cubist/designs).  This process continued until I got something that I liked. 
 
 ![6 Ddd 104 Bbb 2 E 8 Deafde 9 B 30 B 70380684 Preview Featured](/uploads/i-phone-case-project/6-ddd-104-bbb-2-e-8-deafde-9-b-30-b-70380684-preview-featured.jpg "6 Ddd 104 Bbb 2 E 8 Deafde 9 B 30 B 70380684 Preview Featured")
 
-This was my first functional prototype. I
+This was my first functional prototype. I implemented 3 different Hex sizes, 5/16", 1/4", and 3/8". This gives me a small range of tools to work with. 
+
+
+
 
