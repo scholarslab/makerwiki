@@ -68,15 +68,23 @@ The Ninjatek Ninjaflex is the most elastic of the Flex materials, and provides a
 ## Semiflex, ding, ding ding!
 ![White Semi Flex](/uploads/i-phone-case-project/white-semi-flex.jpg "White Semi Flex")
 
-The Ninjatek Ninjaflex turned out to be the perfect material for my specifcations. While not as stretchy or elastic as the Ninjaflex, it had the requisite strength to hold the inner core onto the phone without the whole thing falling apart. Also, the soft rubbery-ness makes it easy to put on and take off. 
+The Ninjatek Semiflex turned out to be the perfect material for my specifcations. While not as stretchy or elastic as the Ninjaflex, it had the requisite strength to hold the inner core onto the phone without the whole thing falling apart. Also, the soft rubbery-ness makes it easy to put on and take off. 
 
 ## Comparing the 3 Materials.
 
 Here is a quick visual guide to the 3 materials tested for this project.
+
 ![Photo Jan 20 8 25 35 Pm](/uploads/i-phone-case-project/photo-jan-20-8-25-35-pm.jpg "Photo Jan 20 8 25 35 Pm")
 ![Photo Jan 20 8 25 24 Pm](/uploads/i-phone-case-project/photo-jan-20-8-25-24-pm.jpg "Photo Jan 20 8 25 24 Pm")
 ![Photo Jan 20 8 25 48 Pm](/uploads/i-phone-case-project/photo-jan-20-8-25-48-pm.jpg "Photo Jan 20 8 25 48 Pm")
 
+While extremely crude and not scientific at all, this gives you a pretty good idea of the "stiffness" of each material. 
 
+## The Core
 
+The story of the other half of the phone case is not nearly so interesting. The core piece of the case
+# Final Product!
+Here is the final product of this project. After realizing that Semiflex was the best option for the outer casing, 
 
+![Img 6413](/uploads/i-phone-case-project/img-6413.jpg "Img 6413")
+![Img 6414](/uploads/i-phone-case-project/img-6414.jpg "Img 6414")
