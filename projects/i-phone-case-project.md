@@ -62,3 +62,21 @@ This gray PLA was to act as a kind of "baseline" for all future materials I test
 
 ## Ninjaflex
 ![Green Ninja Flex](/uploads/i-phone-case-project/green-ninja-flex.jpg "Green Ninja Flex")
+
+The Ninjatek Ninjaflex is the most elastic of the Flex materials, and provides a lot of stretch, particularly for low infils. However, it simply was not stiff enough to hold onto the phone without the phone falling out. While I think this material might be the best for shock absorbance, it was just too weak with this system of holding onto the phone to be useful. 
+
+## Semiflex, ding, ding ding!
+![White Semi Flex](/uploads/i-phone-case-project/white-semi-flex.jpg "White Semi Flex")
+
+The Ninjatek Ninjaflex turned out to be the perfect material for my specifcations. While not as stretchy or elastic as the Ninjaflex, it had the requisite strength to hold the inner core onto the phone without the whole thing falling apart. Also, the soft rubbery-ness makes it easy to put on and take off. 
+
+## Comparing the 3 Materials.
+
+Here is a quick visual guide to the 3 materials tested for this project.
+![Photo Jan 20 8 25 35 Pm](/uploads/i-phone-case-project/photo-jan-20-8-25-35-pm.jpg "Photo Jan 20 8 25 35 Pm")
+![Photo Jan 20 8 25 24 Pm](/uploads/i-phone-case-project/photo-jan-20-8-25-24-pm.jpg "Photo Jan 20 8 25 24 Pm")
+![Photo Jan 20 8 25 48 Pm](/uploads/i-phone-case-project/photo-jan-20-8-25-48-pm.jpg "Photo Jan 20 8 25 48 Pm")
+
+
+
+
