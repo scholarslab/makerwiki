@@ -50,4 +50,15 @@ The final design is shown below.
 ![Phone Case Full Front View](/uploads/i-phone-case-project/phone-case-full-front-view.png "Phone Case Full Front View")
 ![Phone Case Full Rear View](/uploads/i-phone-case-project/phone-case-full-rear-view.png "Phone Case Full Rear View")
 
-Because the top and bottom couldn't be covered in metal, I decided to move the actual hex parts to the side portions of the back face, and have a flexible part holding the hold thing to the iPhone.  
+Because the top and bottom couldn't be covered in metal, I decided to move the actual hex parts to the side portions of the back face, and have a flexible part holding the hold thing to the iPhone.  There is a lip along the inside edge of the red bit that allows it to hold on to the iPhone itself. I also added tick marks to the side profile so that the alignment/position of the hex sockets even when the holes are not visible (i.e., when the phone is sitting flush on a surface). The red part is intended to be printed in a flexible, but strong, rubbery material. It needed to be flexible to reduce the shock impact of when I drop my phone on the floor, flexible so that it could be easily added, strong so that it would not fall off the phone unless I intended it to. Armed with this design, I started 3D printing.
+
+# 3D Printing
+It also happened that this project ended up being a big learning experience into the world of 3D printers. I decided to print the outer casing in a variety of materials and see which one would function the best. 
+
+## Good ol' PLA
+![Gray Pla](/uploads/i-phone-case-project/gray-pla.jpg "Gray Pla")
+
+This gray PLA was to act as a kind of "baseline" for all future materials I tested. I learned in the previous one-piece designs that PLA is fairly brittle under impact, as I dropped my phone on concrete and a small portion of the corner of the case chipped off. It did its job, my phone was perfectly fine. And I learned something that I was able to apply later. At this time, I did not have the other portion of the case printed, so this was the only part I had. However, this piece alone functioned decently well as a phone case. It protects the corners, and it is actually quite minimalist to look at. The nice gray provides a good complement to the cool aluminum iPhone shell. 
+
+## Ninjaflex
+![Green Ninja Flex](/uploads/i-phone-case-project/green-ninja-flex.jpg "Green Ninja Flex")
