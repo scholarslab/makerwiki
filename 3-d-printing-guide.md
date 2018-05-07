@@ -99,6 +99,8 @@ Starts to get risky. Consider taking measures to prevent failure
 ### Angle is < 45 degrees
 Gets more risky. A model with this bad of an overhang will almost definitely need preventative measures. Consider adding support material. Some prints _might_ not need the support. Preventative measures include support material or layer height reduction. 
 # Changing the Extruder on a TAZ 5
+* [Official documentation](https://ohai.lulzbot.com/project/flexystruder-v2-install-lulzbot-taz-5/)
+
 ### Cut the filament
 Use a pair of pliers to snip the filament coming from the top of the extruder. Or you can remove it.
 ### Disconnect the extruder cable
