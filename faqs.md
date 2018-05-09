@@ -18,7 +18,14 @@ Monday - Friday: 1-5pm
 
 ## Tools
 - What does the Makerspace have?
-  - 3D printers, soldering stations, sewing machines, surger, computers, Hololens, Arduinos, Raspberry Pi
+  - 3D printers
+  - soldering stations
+  - sewing machines
+  - surger
+  - computers
+  - Hololens
+  - Arduinos
+  - Raspberry Pi
 
 - How much does it cost to 3D print?
   - Printing is free, but we reserve the right to charge (or request a blog post) when using large amounts of filament.
