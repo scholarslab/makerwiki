@@ -85,6 +85,3 @@ While extremely crude and not scientific at all, this gives you a pretty good id
 The story of the other half of the phone case is not nearly so interesting. The core piece of the case
 # Final Product!
 Here is the final product of this project. After realizing that Semiflex was the best option for the outer casing, 
-
-![Img 6413](/uploads/i-phone-case-project/img-6413.jpg "Img 6413")
-![Img 6414](/uploads/i-phone-case-project/img-6414.jpg "Img 6414")
