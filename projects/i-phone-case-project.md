@@ -84,6 +84,15 @@ While extremely crude and not scientific at all, this gives you a pretty good id
 
 The story of the other half of the phone case is not nearly so interesting. The core piece of the case
 # Final Product!
-Here is the final product of this project. After realizing that Semiflex was the best option for the outer casing, 
+Here is the final product of this project. After realizing that Semiflex was the best option for the outer casing, I decided to go ahead and print out the core part in PLA for now. I am really happy with the way this looks, and I have been using this as my only phone case for about 2 years since I printed this out. I have re-printed some parts as they get dirty or I want to try a new color, and I have yet to get a screen crack or anything from a drop.
 
+![Bottomt](/uploads/i-phone-case-project/bottomt.jpg "Bottomt")
+![Top](/uploads/i-phone-case-project/top.jpg "Top")
 
+# What I would do differently and final thoughts
+
+Obviously if would be very difficult (and VERY expensive) to get the core piece done in metal, so I will likely never get it done unless I pay for it to be done as a memento of my first major 3D printing/modeling project. 
+
+If I ever come back to this project, I would love to add some aesthetic features to the design, such as curves and more markings to personalize it. Since I finished it, I just havent had time or motivation to do so. I will eventually, maybe this summer I will, and then I will post an update to it. 
+
+It took many tries to get the design just right, as can be witnessed by the number attached to the end of the files, around 5-6. Some of these versions (1-4) were garbage attempts that I just threw away as it would be faster to start from scratch than try to fix the model. They also mark the progression from Single Piece, to Better Single Piece, to Two Piece designs, and all the points in the middle. However, the most important thing I want to emphasize in this section is that 
