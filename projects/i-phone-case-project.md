@@ -82,7 +82,7 @@ While extremely crude and not scientific at all, this gives you a pretty good id
 
 ## The Core
 
-The story of the other half of the phone case is not nearly so interesting. The core piece of the case was pretty much fine on the first try in PLA. However, the actual printing process was interesting for this piece. Support material for the center channel printed very poorly on a Makerbot Replicator 5. But the overall design was fine so I just reprinted it without supports. The channel actually printed ok without supoorts. Further on, the one shown in the final product was printed on a TAZ 5 with 10% density support.
+The story of the other half of the phone case is not nearly so interesting. The core piece of the case was pretty much fine on the first try in PLA. However, the actual printing process was interesting for this piece. Support material for the center channel printed very poorly on a Makerbot Replicator 5. But the overall design was fine so I just reprinted it without supports. The channel actually printed ok without supports. Further on, the one shown in the final product was printed on a TAZ 5 with 10% density support.
 
 ![Orang Pla](/uploads/i-phone-case-project/orang-pla.jpg "Orang Pla")
 # Final Product!
