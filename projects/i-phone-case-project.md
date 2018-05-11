@@ -22,7 +22,7 @@ All the files for this project are [available here](https://www.thingiverse.com/
 # Inspirations
 I worked in AC/refrigeration in the summer of 2016 and I noticed that there was one tool we used a lot, the hex wrench. At almost every job site, the first thing we would pull out is the 5/16" or the 1/4" hex wrench. So, I thought I would add our most used tools to my most used tool, my phone. My original ideas featured the hex sockets in two places. One set at the bottom of the phone, so that you can use the full phone like a handle, and one in the center of the phone case, so that you can turn the bolt quickly from that point. Like this.
 
-[INSERT IMAGE LATER]
+![Design](/uploads/i-phone-case-project/design.jpg "Design")
 
 I worked from these iPhone 6 schematics as a reference for my phone.
 
