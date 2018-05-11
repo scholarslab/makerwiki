@@ -1,4 +1,4 @@
-<!-- (WiP) iPhone Case Project -->
+<!-- iPhone Case Project -->
 <!-- SUBTITLE: A 2-part iPhone Case Project -->
 
 # Work in Progress
