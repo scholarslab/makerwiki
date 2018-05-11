@@ -82,7 +82,9 @@ While extremely crude and not scientific at all, this gives you a pretty good id
 
 ## The Core
 
-The story of the other half of the phone case is not nearly so interesting. The core piece of the case
+The story of the other half of the phone case is not nearly so interesting. The core piece of the case was pretty much fine on the first try in PLA. However, the actual printing process was interesting for this piece. Support material for the center channel printed very poorly on a Makerbot Replicator 5. But the overall design was fine so I just reprinted it without supports. The channel actually printed ok without supoorts. Further on, the one shown in the final product was printed on a TAZ 5 with 10% density support.
+
+![Orang Pla](/uploads/i-phone-case-project/orang-pla.jpg "Orang Pla")
 # Final Product!
 Here is the final product of this project. After realizing that Semiflex was the best option for the outer casing, I decided to go ahead and print out the core part in PLA for now. I am really happy with the way this looks, and I have been using this as my only phone case for about 2 years since I printed this out. I have re-printed some parts as they get dirty or I want to try a new color, and I have yet to get a screen crack or anything from a drop.
 
