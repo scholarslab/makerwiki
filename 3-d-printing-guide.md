@@ -120,4 +120,4 @@ If it is connected to the desktop, disconnect the TAZ from the desktop computer.
 ### Calibrate the Z-axis
 Loosen the black thumb screw located on the left side of the printer by at least one full turn. This screw determines the Z-height when the printer is "homed". If the printer is not properly homed in the Z-axis, it can drag the hot end through the bed, damaging the printer, or be too high, making the print quality low. Take out the calibration tool, or a piece of paper if you don't have one. The Makerspace calibration tool has a small piece of blue tape on the proper-thickness edge. Continue to tighten the screw and re-home the TAZ until the edge barely slides under the hot end without scraping it. Tighten the screw in increments of 1/4 - 1/2 turns.
 ### You're ready to print!
-Now load the proper filament for the extruder head you are using and
+Now load the proper filament for the extruder head you are using and begin to print.
