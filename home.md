@@ -3,8 +3,6 @@
 
 ![Kraken](https://raw.githubusercontent.com/scholarslab/makerwiki/master/kraken.png)
 
-![Squid](https://raw.githubusercontent.com/scholarslab/makerwiki/master/squid.png)
-
 # Contributing
 - [WikiJS Documentation](https://docs.requarks.io/wiki/user-guide/markdown-syntax)
 - Login to website with account or commit to the [GitHub repo](https://github.com/scholarslab/makerwiki)
